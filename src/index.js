@@ -7,8 +7,6 @@ import store from './store';
 import { BrowserRouter } from 'react-router-dom';
 import { ChakraProvider } from "@chakra-ui/react";
 
-
-
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -21,4 +19,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
